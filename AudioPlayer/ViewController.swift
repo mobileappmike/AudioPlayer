@@ -19,7 +19,11 @@ class ViewController: UIViewController {
     }
 
     @IBAction func playButtonPressed(_ sender: Any) {
-        playMusic()
+        if player?.isPlaying == true {
+            player?.stop()
+        } else {
+            playMusic()
+        }
     }
     
 
