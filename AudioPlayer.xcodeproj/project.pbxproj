@@ -12,6 +12,7 @@
 		5CC9E1CF21CDD6D500AD24D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CC9E1CD21CDD6D500AD24D7 /* Main.storyboard */; };
 		5CC9E1D121CDD6D700AD24D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CC9E1D021CDD6D700AD24D7 /* Assets.xcassets */; };
 		5CC9E1D421CDD6D700AD24D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CC9E1D221CDD6D700AD24D7 /* LaunchScreen.storyboard */; };
+		5CC9E1DC21CDD7DD00AD24D7 /* bensound-ukulele.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5CC9E1DB21CDD7DC00AD24D7 /* bensound-ukulele.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		5CC9E1D021CDD6D700AD24D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5CC9E1D321CDD6D700AD24D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5CC9E1D521CDD6D700AD24D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CC9E1DB21CDD7DC00AD24D7 /* bensound-ukulele.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "bensound-ukulele.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,9 +61,18 @@
 				5CC9E1CD21CDD6D500AD24D7 /* Main.storyboard */,
 				5CC9E1D021CDD6D700AD24D7 /* Assets.xcassets */,
 				5CC9E1D221CDD6D700AD24D7 /* LaunchScreen.storyboard */,
+				5CC9E1DD21CDD7E800AD24D7 /* Music Files */,
 				5CC9E1D521CDD6D700AD24D7 /* Info.plist */,
 			);
 			path = AudioPlayer;
+			sourceTree = "<group>";
+		};
+		5CC9E1DD21CDD7E800AD24D7 /* Music Files */ = {
+			isa = PBXGroup;
+			children = (
+				5CC9E1DB21CDD7DC00AD24D7 /* bensound-ukulele.mp3 */,
+			);
+			path = "Music Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,6 +133,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CC9E1DC21CDD7DD00AD24D7 /* bensound-ukulele.mp3 in Resources */,
 				5CC9E1D421CDD6D700AD24D7 /* LaunchScreen.storyboard in Resources */,
 				5CC9E1D121CDD6D700AD24D7 /* Assets.xcassets in Resources */,
 				5CC9E1CF21CDD6D500AD24D7 /* Main.storyboard in Resources */,

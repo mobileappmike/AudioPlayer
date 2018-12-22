@@ -7,14 +7,32 @@
 //
 
 import UIKit
+import AVFoundation
 
 class ViewController: UIViewController {
+    
+    var player: AVAudioPlayer?
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
 
+    @IBAction func playButtonPressed(_ sender: Any) {
+        playMusic()
+    }
+    
 
+    func playMusic() {
+        let soundURL = Bundle.main.url(forResource: "bensound-ukulele", withExtension: "mp3")
+        
+        do {
+       try player = AVAudioPlayer(contentsOf: soundURL!)
+        } catch {
+            print(error)
+        }
+        
+        player?.play()
+    }
 }
 
